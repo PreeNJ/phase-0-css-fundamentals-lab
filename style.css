@@ -3,3 +3,59 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center header text */
+header {
+  text-align: center;
+}
+
+/* Center the main image */
+#featured-property figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Navigation links style */
+nav a {
+  padding: 10px;
+  background-color: #808080; /* Gray background */
+  display: inline-block;
+  margin: 0 5px; /* Adjust spacing between links */
+  text-align: center;
+}
+
+/* Image caption styling */
+figcaption {
+  font-size: 0.8em; /* Smaller font size */
+  text-align: center;
+  display: block;
+}
+
+/* Center text in the text block */
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Details section horizontal layout */
+#details div {
+  float: left;
+  width: 25%; /* Adjust based on the number of divs */
+  box-sizing: border-box; /* Includes padding and border in the width */
+}
+
+/* Footer divs styling */
+footer div {
+  float: left;
+  width: 25%;
+  background-color: red; /* Light grey background */
+  text-align: center;
+  padding: 10px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
